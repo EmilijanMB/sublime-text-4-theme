@@ -1,4 +1,4 @@
-### Sublime Text 4 Theme in Visual Studio Code!
+### Sublime Text 4 Theme in Visual Studio Code! New default dark theme from Sublime Text 4!
 
 <p align="center"><img width="800px" src="https://i.ibb.co/n6KG8CZ/Sublime-Text-4-Theme.png"></p>
 <p align="center">
