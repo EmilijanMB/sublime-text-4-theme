@@ -1,13 +1,74 @@
-# README
-## This is the README for your extension "sublime-text-4-theme"
-You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
+### Sublime Text 4 Theme in Visual Studio Code!
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
+<p align="center"><img width="800px" src="https://i.ibb.co/n6KG8CZ/Sublime-Text-4-Theme.png"></p>
+<p align="center">
 
-### For more information
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+## Installing information
 
-**Enjoy!**
+Theme install
+
+### Installation
+
+Quick Open:
+Windows: Ctrl + P
+macOS: ⌘ + P
+Linux: Ctrl + P
+
+Paste the following command and press `Enter`:
+
+```shell
+ext install sublime-text-4-theme
+```
+
+...pick the theme
+
+## Theme activation
+
+Quick Open:
+Windows: Ctrl + Shift + P
+macOS: Shift + P
+Linux: Ctrl + Shift + P
+
+Type `theme`, choose `Preferences: Color Theme`, and select Sublime Text 4 Theme
+
+### Overriding the colors
+
+**Editor colors**
+
+```js
+"editor.tokenColorCustomizations": {
+    "[Sublime Text 4 Theme]": {
+        "textMateRules": [
+            {
+                "scope": "comment",
+                "settings": {
+                     "foreground": "#74705D",
+                }
+            },
+        ]
+    },
+},
+```
+
+**Theme colors**
+
+"workbench.colorCustomizations": {
+"[Sublime Text 4 Theme]": {
+"editor.selectionBackground": "#ff0000",
+}
+},
+
+## Recommended settings for complete Sublime Text 4 experience
+
+```js
+{
+    // Changes to like Sublime Text 4 Theme now even more
+    "editor.letterSpacing": 0.55,
+    "editor.lineHeight": 18,
+    "workbench.colorCustomizations": {
+        "editorCursor.foreground":"#f9ae58"
+    }
+}
+```
+
+# sublime-text-4-theme
