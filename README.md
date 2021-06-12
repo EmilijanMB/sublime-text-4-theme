@@ -17,7 +17,7 @@ Linux: Ctrl + P
 Paste the following command and press `Enter`:
 
 ```shell
-ext install sublime-text-4-theme
+ext install EmilijanMB.sublime-text-4-theme
 ```
 
 ...pick the theme
