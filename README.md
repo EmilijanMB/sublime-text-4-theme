@@ -1,6 +1,6 @@
 ### Sublime Text 4 Theme in Visual Studio Code! New default dark theme from Sublime Text 4!
 
-<p align="center"><img width="800px" src="https://i.ibb.co/n6KG8CZ/Sublime-Text-4-Theme.png"></p>
+<p align="center"><img width="800px" src="https://i.ibb.co/dgvrYCz/sublime-text-4-theme.jpg" alt="sublime-text-4-theme"></p>
 <p align="center">
 
 ## Installing information
@@ -63,8 +63,11 @@ Type `theme`, choose `Preferences: Color Theme`, and select Sublime Text 4 Theme
 ```js
 {
     // Changes to like Sublime Text 4 Theme now even more
+    
+    "breadcrumbs.enabled": false,
     "editor.letterSpacing": 0.55,
     "editor.lineHeight": 18,
+    "window.menuBarVisibility": "compact",
     "workbench.colorCustomizations": {
         "editorCursor.foreground":"#f9ae58"
     }
