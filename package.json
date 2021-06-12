@@ -2,7 +2,7 @@
     "name": "sublime-text-4-theme",
     "displayName": "Sublime Text 4 Theme",
     "description": "Sublime Text 4 Theme! New dark theme from Sublime Text 4 with converted color files from HSL to HEX",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "publisher": "EmilijanMB",
     "repository": {
         "type": "git",
