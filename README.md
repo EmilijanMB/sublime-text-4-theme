@@ -67,10 +67,7 @@ Type `theme`, choose `Preferences: Color Theme`, and select Sublime Text 4 Theme
     "breadcrumbs.enabled": false,
     "editor.letterSpacing": 0.55,
     "editor.lineHeight": 18,
-    "window.menuBarVisibility": "compact",
-    "workbench.colorCustomizations": {
-        "editorCursor.foreground":"#f9ae58"
-    }
+    "window.menuBarVisibility": "compact"
 }
 ```
 
