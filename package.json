@@ -36,6 +36,11 @@
                 "label": "Sublime Text 4 Theme",
                 "uiTheme": "vs-dark",
                 "path": "./themes/Sublime Text 4 Theme-color-theme.json"
+            },
+            {
+                "label": "Sublime Text 4 Colorful Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Sublime Text 4 Colorful Theme-color-theme.json"
             }
         ]
     }
