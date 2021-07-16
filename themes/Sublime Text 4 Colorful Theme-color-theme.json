@@ -300,8 +300,7 @@
     {
       "scope": "storage.type",
       "settings": {
-        "foreground": "#C695C6",
-        "fontStyle": "italic"
+        "foreground": "#C695C6"
       }
     },
     {
@@ -580,6 +579,9 @@
       "foreground": "#FAC761",
       "italic": true
     },
+    "parameter.declaration": {
+      "italic": false
+    },
     "variable": {
       "foreground": "#d8dee9"
     },
@@ -587,14 +589,20 @@
       "foreground": "#909ed3"
     },
     "function": {
-      "foreground": "#5FB4B4"
+      "foreground": "#6699CC"
     },
     "interface": {
-      "foreground": "#FAC761",
+      "foreground": "#5FB4B4",
       "italic": true
+    },
+    "interface.declaration": {
+      "italic": false
     },
     "property.readonly": {
       "foreground": "#EC5F66"
+    },
+    "method": {
+      "foreground": "#6699CC"
     },
     "enumMember": {
       "foreground": "#d8dee9",
