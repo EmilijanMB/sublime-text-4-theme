@@ -306,7 +306,7 @@
     {
       "scope": "entity.name.function",
       "settings": {
-        "foreground": "#5FB4B4"
+        "foreground": "#6699CC"
       }
     },
     {
@@ -389,6 +389,14 @@
       ],
       "settings": {
         "foreground": "#6699CC"
+      }
+    },
+    {
+      "scope": [
+        "support.type.object.module"
+      ],
+      "settings": {
+        "fontStyle": "italic"
       }
     },
     {
@@ -586,10 +594,7 @@
       "foreground": "#d8dee9"
     },
     "variable.readonly": {
-      "foreground": "#909ed3"
-    },
-    "function": {
-      "foreground": "#6699CC"
+      "foreground": "#9e7acc"
     },
     "interface": {
       "foreground": "#5FB4B4",
@@ -600,6 +605,9 @@
     },
     "property.readonly": {
       "foreground": "#EC5F66"
+    },
+    "property.declaration": {
+      "foreground": "#d8dee9"
     },
     "method": {
       "foreground": "#6699CC"
