@@ -159,7 +159,7 @@
     "terminal.ansiGreen": "#a3ce9e",
     "terminal.ansiMagenta": "#c594c5",
     "terminal.ansiRed": "#ee6a6f",
-    "terminal.ansiWhite": "#ffffffdd",
+    "terminal.ansiWhite": "#d8dee9",
     "terminal.ansiYellow": "#fab763",
     "terminal.background": "#454b54",
     "terminal.selectionBackground": "#ffffff30",
@@ -173,7 +173,7 @@
     "titleBar.inactiveBackground": "#2b2b2b",
     "titleBar.inactiveForeground": "#7f7f7f",
     "widget.shadow": "#00000040",
-    "menu.background": "#2b2a29e8"
+    "menu.background": "#2b2a29"
   },
   "tokenColors": [
     {
@@ -186,7 +186,10 @@
       }
     },
     {
-      "scope": "string",
+      "scope": [
+        "string.quoted.single",
+        "string.quoted.double"
+      ],
       "settings": {
         "foreground": "#99C794"
       }
@@ -235,16 +238,28 @@
         "keyword",
         "keyword.operator.word",
         "keyword.control",
-        "keyword.operator.new.js"
+        "keyword.operator.new"
       ],
       "settings": {
         "foreground": "#C695C6"
       }
     },
     {
-      "scope": "string.template.js meta.template.expression.js meta.embedded.line.js",
+      "scope": [
+        "string.template",
+        "meta.template.expression",
+        "meta.embedded.line"
+      ],
       "settings": {
-        "foreground": "#E6E6E6"
+        "foreground": "#99C794"
+      }
+    },
+    {
+      "scope": [
+        "variable.other.object.property"
+      ],
+      "settings": {
+        "foreground": "#d8dee9"
       }
     },
     {
@@ -265,7 +280,7 @@
     {
       "scope": "punctuation.section",
       "settings": {
-        "foreground": "#FFFFFF"
+        "foreground": "#d8dee9"
       }
     },
     {
@@ -282,23 +297,20 @@
     },
     {
       "scope": [
-        "variable.other.dollar.only.js",
-        "variable.other.object.dollar.only.js",
-        "variable.type.dollar.only.js",
-        "support.class.dollar.only.js"
+        "variable.other.dollar.only",
+        "variable.other.object.dollar.only",
+        "variable.type.dollar.only",
+        "support.class.dollar.only"
       ],
       "settings": {
         "foreground": "#5FB4B4"
       }
     },
     {
-      "scope": "storage",
-      "settings": {
-        "foreground": "#EC5F66"
-      }
-    },
-    {
-      "scope": "storage.type",
+      "scope": [
+        "storage",
+        "storage.type"
+      ],
       "settings": {
         "foreground": "#C695C6"
       }
@@ -306,11 +318,11 @@
     {
       "scope": "entity.name.function",
       "settings": {
-        "foreground": "#6699CC"
+        "foreground": "#86b9eb"
       }
     },
     {
-      "scope": "meta.object-literal.key.js",
+      "scope": "meta.object-literal.key",
       "settings": {
         "foreground": "#6699CC"
       }
@@ -388,7 +400,7 @@
         "support.class"
       ],
       "settings": {
-        "foreground": "#6699CC"
+        "foreground": "#86b9eb"
       }
     },
     {
@@ -408,7 +420,7 @@
     {
       "scope": "invalid.deprecated",
       "settings": {
-        "foreground": "#FFFFFFDD"
+        "foreground": "#d8dee9"
       }
     },
     {
@@ -420,7 +432,7 @@
     {
       "scope": "source.yaml string.unquoted",
       "settings": {
-        "foreground": "#FFFFFFDD"
+        "foreground": "#d8dee9"
       }
     },
     {
@@ -525,8 +537,7 @@
     {
       "scope": "support.type.property-name",
       "settings": {
-        "foreground": "#FFFFFFDD",
-        "fontStyle": ""
+        "foreground": "#6796E6",
       }
     },
     {
@@ -564,24 +575,18 @@
       "settings": {
         "foreground": "#B267E6"
       }
-    },
-    {
-      "scope": "support.type.property-name.json.comments",
-      "settings": {
-        "foreground": "#99C794"
-      }
-    },
-    {
-      "scope": "support.type.property-name.json",
-      "settings": {
-        "foreground": "#99C794"
-      }
-    },
+    }
   ],
   "semanticHighlighting": true,
   "semanticTokenColors": {
     "class": {
       "foreground": "#5FB4B4",
+    },
+    "class.defaultLibrary": {
+      "italic": true
+    },
+    "variable.defaultLibrary": {
+      "italic": true
     },
     "parameter": {
       "foreground": "#FAC761",
@@ -594,7 +599,7 @@
       "foreground": "#d8dee9"
     },
     "variable.readonly": {
-      "foreground": "#9e7acc"
+      "foreground": "#d8b389"
     },
     "interface": {
       "foreground": "#5FB4B4",
@@ -610,7 +615,7 @@
       "foreground": "#d8dee9"
     },
     "method": {
-      "foreground": "#6699CC"
+      "foreground": "#86b9eb"
     },
     "enumMember": {
       "foreground": "#d8dee9",
