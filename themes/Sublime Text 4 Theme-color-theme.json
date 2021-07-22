@@ -302,7 +302,10 @@
 			}
 		},
 		{
-			"scope": "entity.name.function",
+			"scope": [
+				"entity.name.function",
+				"meta.function-call.generic.python"
+			],
 			"settings": {
 				"foreground": "#5FB4B4"
 			}
